@@ -572,4 +572,14 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libfm_interface.so:system/lib64/libfm_interface.so \
 	vendor/huawei/hwgra/proprietary/lib64/libfm_volume.so:system/lib64/libfm_volume.so \
 	vendor/huawei/hwgra/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-	vendor/huawei/hwgra/proprietary/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar
+	vendor/huawei/hwgra/proprietary/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar \
+	vendor/huawei/hwgra/proprietary/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec:system/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec \
+	vendor/huawei/hwgra/proprietary/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec:system/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec \
+	vendor/huawei/hwgra/proprietary/bin/79b77788-9789-4a7a-a2be-b60155eef5f4.sec:system/bin/79b77788-9789-4a7a-a2be-b60155eef5f4.sec \
+	vendor/huawei/hwgra/proprietary/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec:system/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec \
+	vendor/huawei/hwgra/proprietary/bin/a32b3d00-cb57-11e3-9c1a-0800200c9a66.sec:system/bin/a32b3d00-cb57-11e3-9c1a-0800200c9a66.sec \
+	vendor/huawei/hwgra/proprietary/bin/abe89147-cd61-f43f-71c4-1a317e405312.sec:system/bin/abe89147-cd61-f43f-71c4-1a317e405312.sec \
+	vendor/huawei/hwgra/proprietary/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec:system/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec \
+	vendor/huawei/hwgra/proprietary/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec:system/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec \
+	vendor/huawei/hwgra/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+	vendor/huawei/hwgra/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
