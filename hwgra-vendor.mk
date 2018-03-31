@@ -397,8 +397,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/huawei/hwgra/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
 	vendor/huawei/hwgra/proprietary/bin/sensorservice:system/bin/sensorservice \
-	vendor/huawei/hwgra/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-	vendor/huawei/hwgra/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
 	vendor/huawei/hwgra/proprietary/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
 	vendor/huawei/hwgra/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
 	vendor/huawei/hwgra/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -561,8 +559,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libhwaps.so:system/lib64/libhwaps.so \
 	vendor/huawei/hwgra/proprietary/lib/libhwgl.so:system/lib/libhwgl.so \
 	vendor/huawei/hwgra/proprietary/lib64/libhwgl.so:system/lib64/libhwgl.so \
-	vendor/huawei/hwgra/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
-	vendor/huawei/hwgra/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
 	vendor/huawei/hwgra/proprietary/lib/liblog.so:system/lib/liblog.so \
 	vendor/huawei/hwgra/proprietary/lib64/liblog.so:system/lib64/liblog.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/fm.bcm.hi3635.so:system/lib/hw/fm.bcm.hi3635.so \
