@@ -579,3 +579,13 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec:system/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec \
 	vendor/huawei/hwgra/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
 	vendor/huawei/hwgra/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+	vendor/huawei/hwgra/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+	vendor/huawei/hwgra/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
+    vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
+    vendor/huawei/hwgra/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
+    vendor/huawei/hwgra/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
+    vendor/huawei/hwgra/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
+    vendor/huawei/hwgra/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
+    vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
+    vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
+    vendor/huawei/hwgra/proprietary/lib/libshim_media.so:system/lib/libshim_media.so \
