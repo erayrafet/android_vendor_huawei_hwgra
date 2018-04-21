@@ -352,7 +352,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/hw/keystore.hi3635.so:system/lib64/hw/keystore.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/memtrack.hi3635.so:system/lib64/hw/memtrack.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/sensorhub.default.so:system/lib64/hw/sensorhub.default.so \
-	vendor/huawei/hwgra/proprietary/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/camera.hi3635.so:system/lib/hw/camera.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/copybit.hi3635.so:system/lib/hw/copybit.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/keystore.hi3635.so:system/lib/hw/keystore.hi3635.so \
@@ -396,7 +395,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
 	vendor/huawei/hwgra/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/huawei/hwgra/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-	vendor/huawei/hwgra/proprietary/bin/sensorservice:system/bin/sensorservice \
 	vendor/huawei/hwgra/proprietary/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
 	vendor/huawei/hwgra/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
 	vendor/huawei/hwgra/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -588,4 +586,10 @@ PRODUCT_COPY_FILES := \
     vendor/huawei/hwgra/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
     vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
-    vendor/huawei/hwgra/proprietary/lib/libshim_media.so:system/lib/libshim_media.so \
+    vendor/huawei/hwgra/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/huawei/hwgra/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+	vendor/huawei/hwgra/proprietary/lib/libmedia.so:system/lib/libshim_media.so \
+	vendor/huawei/hwgra/proprietary/lib64/libmedia.so:system/lib64/libshim_media.so \
+	vendor/huawei/hwgra/proprietary/lib/libcamera_client.so:system/lib/libshim_camera_client.so \
+	vendor/huawei/hwgra/proprietary/lib64/libcamera_client.so:system/lib64/libshim_camera_client.so \
+	vendor/huawei/hwgra/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml 
