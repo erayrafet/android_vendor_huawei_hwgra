@@ -582,14 +582,4 @@ PRODUCT_COPY_FILES := \
     vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
-    vendor/huawei/hwgra/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
-    vendor/huawei/hwgra/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
-    vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
-    vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
-    vendor/huawei/hwgra/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/huawei/hwgra/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
-	vendor/huawei/hwgra/proprietary/lib/libmedia.so:system/lib/libshim_media.so \
-	vendor/huawei/hwgra/proprietary/lib64/libmedia.so:system/lib64/libshim_media.so \
-	vendor/huawei/hwgra/proprietary/lib/libcamera_client.so:system/lib/libshim_camera_client.so \
-	vendor/huawei/hwgra/proprietary/lib64/libcamera_client.so:system/lib64/libshim_camera_client.so \
-	vendor/huawei/hwgra/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml 
+    vendor/huawei/hwgra/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so 
