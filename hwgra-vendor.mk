@@ -582,4 +582,8 @@ PRODUCT_COPY_FILES := \
     vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
-    vendor/huawei/hwgra/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so 
+    vendor/huawei/hwgra/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
+	vendor/huawei/hwgra/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default \
+	vendor/huawei/hwgra/proprietary/lib64/hw/sensors.default.so:system/lib64/hw/sensors.default \
+	vendor/huawei/hwgra/proprietary/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
+	vendor/huawei/hwgra/proprietary/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so 
