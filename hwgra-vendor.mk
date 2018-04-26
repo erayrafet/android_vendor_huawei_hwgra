@@ -595,4 +595,9 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_libgui.so \
 	vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
 	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
-	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_libui.so
+	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_libui.so \
+	vendor/huawei/hwgra/proprietary/lib/libpowergenie_native3.so:system/lib/libpowergenie_native3.so \
+	vendor/huawei/hwgra/proprietary/lib64/libpowergenie_native3.so:system/lib64/libpowergenie_native3.so \
+	vendor/huawei/hwgra/proprietary/lib64/hw/copybit.hi3635.so:system/lib64/hw/copybit.hi3635.so \
+	vendor/huawei/hwgra/proprietary/lib/hw/copybit.hi3635.so:system/lib/hw/copybit.hi3635.so 
+	
