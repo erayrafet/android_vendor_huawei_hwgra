@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
 	vendor/huawei/hwgra/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
-	vendor/huawei/hwgra/proprietary/vendor/lib/mediadrm:system/vendor/lib/mediadrm \
 	vendor/huawei/hwgra/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -580,8 +579,8 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
-    vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
-    vendor/huawei/hwgra/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
+    vendor/huawei/hwgra/proprietary/lib64/libcamera_client.so:system/lib64/libshim_camera_client.so \
+    vendor/huawei/hwgra/proprietary/lib/libcamera_client.so:system/lib/libshim_camera_client.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
@@ -591,7 +590,9 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
 	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.m.GRACE.so:system/lib/hwcam/hwcam.hi3635.m.GRACE.so \
-	vendor/huawei/hwgra/proprietary/bin/media:system/bin/media \
-	vendor/huawei/hwgra/proprietary/lib/libstagefright_foundation.so:system/lib/libshim_stagefright.so \
-	vendor/huawei/hwgra/proprietary/lib64/libstagefright_foundation.so:system/lib64/libshim_stagefright.so \
 	vendor/huawei/hwgra/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
+	vendor/huawei/hwgra/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_libgui.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_libui.so
