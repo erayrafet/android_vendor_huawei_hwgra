@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	vendor/huawei/hwgra/proprietary/vendor/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -333,7 +334,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libmedialogservice.so:system/lib/libmedialogservice.so \
 	vendor/huawei/hwgra/proprietary/bin/atcmdserver:system/bin/atcmdserver \
 	vendor/huawei/hwgra/proprietary/bin/thermal-daemon:system/bin/thermal-daemon \
-	vendor/huawei/hwgra/proprietary/bin/chargemonitor:system/bin/chargemonitor \
 	vendor/huawei/hwgra/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
 	vendor/huawei/hwgra/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
 	vendor/huawei/hwgra/proprietary/lib/liboeminfo_jni.so:system/lib/liboeminfo_jni.so \
@@ -583,8 +583,6 @@ PRODUCT_COPY_FILES := \
     vendor/huawei/hwgra/proprietary/lib/libcamera_client.so:system/lib/libshim_camera_client.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib64/libshim_gui.so \
-    vendor/huawei/hwgra/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
-    vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib64/libshim_hwui.so \
     vendor/huawei/hwgra/proprietary/lib64/libmedia.so:system/lib64/libshim_media.so \
     vendor/huawei/hwgra/proprietary/lib/libmedia.so:system/lib64/libshim_media.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
@@ -592,12 +590,19 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.m.GRACE.so:system/lib/hwcam/hwcam.hi3635.m.GRACE.so \
 	vendor/huawei/hwgra/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
 	vendor/huawei/hwgra/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
-	vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_libgui.so \
-	vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
-	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
-	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_libui.so \
 	vendor/huawei/hwgra/proprietary/lib/libpowergenie_native3.so:system/lib/libpowergenie_native3.so \
 	vendor/huawei/hwgra/proprietary/lib64/libpowergenie_native3.so:system/lib64/libpowergenie_native3.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/copybit.hi3635.so:system/lib64/hw/copybit.hi3635.so \
-	vendor/huawei/hwgra/proprietary/lib/hw/copybit.hi3635.so:system/lib/hw/copybit.hi3635.so 
+	vendor/huawei/hwgra/proprietary/lib/hw/copybit.hi3635.so:system/lib/hw/copybit.hi3635.so \
+	vendor/huawei/hwgra/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+	vendor/huawei/hwgra/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+	vendor/huawei/hwgra/nonstock/lib/libdcamera_capture.so:system/lib/libdcamera_capture.so \
+	vendor/huawei/hwgra/nonstock/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
+	vendor/huawei/hwgra/nonstock/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
+	vendor/huawei/hwgra/nonstock/lib/libstlport.so:system/lib/libstlport.so \
+	vendor/huawei/hwgra/nonstock/lib64/libdcamera_capture.so:system/lib64/libdcamera_capture.so \
+	vendor/huawei/hwgra/nonstock/lib64/libmorpho_effect_library5.so:system/lib64/libmorpho_effect_library5.so \
+	vendor/huawei/hwgra/nonstock/lib64/libstlport.so:system/lib64/libstlport.so 
+	
+	
 	
