@@ -579,23 +579,18 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
-    vendor/huawei/hwgra/proprietary/lib64/libcamera_client.so:system/lib64/libshim_camera_client.so \
-    vendor/huawei/hwgra/proprietary/lib/libcamera_client.so:system/lib/libshim_camera_client.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib64/libmedia.so:system/lib64/libshim_media.so \
     vendor/huawei/hwgra/proprietary/lib/libmedia.so:system/lib64/libshim_media.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
-	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.m.GRACE.so:system/lib/hwcam/hwcam.hi3635.m.GRACE.so \
 	vendor/huawei/hwgra/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
 	vendor/huawei/hwgra/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
 	vendor/huawei/hwgra/proprietary/lib/libpowergenie_native3.so:system/lib/libpowergenie_native3.so \
 	vendor/huawei/hwgra/proprietary/lib64/libpowergenie_native3.so:system/lib64/libpowergenie_native3.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/copybit.hi3635.so:system/lib64/hw/copybit.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/copybit.hi3635.so:system/lib/hw/copybit.hi3635.so \
-	vendor/huawei/hwgra/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-	vendor/huawei/hwgra/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
 	vendor/huawei/hwgra/nonstock/lib/libdcamera_capture.so:system/lib/libdcamera_capture.so \
 	vendor/huawei/hwgra/nonstock/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
 	vendor/huawei/hwgra/nonstock/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
