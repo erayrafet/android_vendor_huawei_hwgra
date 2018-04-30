@@ -240,7 +240,7 @@
 
   <path name="media-speaker" >
     <path name="audio-play" />
-		<path name="earpiece" />
+    <path name="earpiece" />
     <path name="speaker" />
   </path>
 
